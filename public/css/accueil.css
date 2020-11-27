@@ -1,0 +1,308 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ 
+  header{
+      width: 100%;
+       position: fixed ;
+    top: 0;
+    z-index: 1;
+  }
+  .firstsection{
+
+     margin-top: 109px;
+
+  }
+
+.logo{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+    background-color: white;
+    /* padding: 10px 0; */
+   
+}
+
+.navbar{
+    background-color: rgb(0,26,19);
+    padding: 10px 0 ;
+}
+.navbar div{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar div a {
+    color: white;
+    font-size: smaller;
+    text-decoration: none;
+}
+footer{
+    background-color: rgb(0,26,19);
+}
+.div1footer{
+   padding-top: 40px;
+   padding-bottom: 40px;
+     text-align: center;
+}
+.div1footer a{
+    color:white; 
+    font-size:35px ;
+    text-decoration: none ;
+}
+.div2footer{
+   color: white;
+   text-align: center;
+   padding-bottom: 20px;
+  
+   
+}
+.div3footer{
+    color: white;
+    text-align: center;
+    padding-bottom: 35px;
+ }
+ .slider{
+     width: 100%;
+     height: 500px;
+     background-image: url('../photos/hello-i-m-nik-z1d-LP8sjuI-unsplash1604417482.jpg');
+     background-position: center; background-repeat: no-repeat; background-size: cover ; 
+ }
+
+ .titre {
+    color:rgb(0,26,19);
+    padding:80px 0;
+    text-align:center;
+    overflow:hidden;
+    
+    font-family: 'Syne Mono', monospace ;
+  }
+  .titre:before, .titre:after {
+    content:'';
+    width:3em;
+    border-bottom: 1px rgb(0,26,19) solid;
+    display:inline-block;
+    vertical-align:middle;
+  }
+  .titre:before {
+    margin-left:-100%;
+  margin-right:1em}
+  .titre:after {
+    margin-right:-100%;
+  margin-left:1em;}
+
+  .titre1 {
+    color:rgb(0,26,19);
+    padding:80px 0;
+    text-align:center;
+    overflow:hidden;
+    
+    font-family: 'Syne Mono', monospace ;
+  }
+  .titre1:before, .titre1:after {
+    content:'';
+    width:13em;
+    border-bottom: 1px rgb(0,26,19) solid;
+    display:inline-block;
+    vertical-align:middle;
+  }
+  .titre1:before {
+    margin-left:-100%;
+  margin-right:1em}
+  .titre1:after {
+    margin-right:-100%;
+  margin-left:1em;}
+
+  /* h1 {
+    background:rgba(0,0,0,0.8);
+    color:white;
+    padding:1em 0;
+    text-align:center;
+    overflow:hidden;
+    font-size:26px;
+    font-family:georgia;
+  }
+  h1:before, h1:after {
+    content:'';
+    width:3em;
+    border-bottom:rgba(255,255,255,0.3) solid;
+    display:inline-block;
+    vertical-align:middle;
+  }
+  h1:before {
+    margin-left:-100%;
+  margin-right:3em}
+  h1:after {
+    margin-right:-100%;
+  margin-left:3em;} */
+  /* style="color:rgb(0,26,19); text-align:center ;font-family: 'Syne Mono', monospace ; overflow:hidden"  */
+
+ .divimggames{
+     width: 90%;
+     margin-left: auto;
+     margin-right: auto;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     margin-bottom: 80px;
+ }
+ .divimggames img {
+     margin-bottom: 60px;
+ }
+ .divimggamecorps{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+.divimggamecorps img {
+  margin-bottom: 3px;
+}
+.divimggames img {
+  margin-bottom: 60px;
+}
+ .sectioncorps{
+
+  width: 100%;
+  height: 350px;
+  background-image: url('../photos/hello-i-m-nik-z1d-LP8sjuI-unsplash1604417482.jpg');
+  background-position: center; background-repeat: no-repeat; background-size: cover ; 
+   background-color: rgb(245,246,247);
+   margin-top: 109px;
+ }
+.sectioncheuveux{
+  width: 100%;
+  height: 350px;
+  background-image: url('../photos/mika-baumeister-Y_LgXwQEx2c-unsplash1604534550.jpg');
+  background-position: center; background-repeat: no-repeat; background-size: cover ; 
+   background-color: rgb(245,246,247);
+   margin-top: 109px;
+}
+.sectionvisage{
+  width: 100%;
+  height: 350px;
+  background-image: url('../photos/max-AsJirOOLN_s-unsplash.jpg');
+  background-position: center; background-repeat: no-repeat; background-size: cover ; 
+   background-color: rgb(245,246,247);
+   margin-top: 109px;
+}
+.sectionsolaires{
+  width: 100%;
+  height: 350px;
+  background-image: url('../photos/max-AsJirOOLN_s-unsplash.jpg');
+  background-position: center; background-repeat: no-repeat; background-size: cover ; 
+   background-color: rgb(245,246,247);
+   margin-top: 109px;
+}
+ .titrecategorie{
+
+  color: rgb(0,26,19) ;
+
+
+ }
+ .me{
+
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 40px ;
+  padding-top: 10px;
+ }
+.me a{
+  color: rgb(83, 156, 138) ;
+  text-decoration: none;
+}
+
+.divsectioncorps{
+   width: 40%;
+}
+.divsectioncorps p{
+  text-align: center;
+}
+.divsectioncorps h4{
+  text-align: center;
+}
+.sectionpageadmin{
+  margin-top: 180px;
+  margin-bottom: 60px;
+}
+.sectionpro{
+  background-color: rgba(255, 255, 255, 0.774);
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+.article1sectionpro{
+  width: 50%;
+  margin-top: 150px;
+}
+
+.btncommander{
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  background-color: rgb(0,26,19);
+  margin-top: 30px;
+  border-radius: 1px;
+}
+
+
+
+/**
+ * The CSS shown here will not be introduced in the Quickstart guide, but shows
+ * how you can use CSS to style your Element's container.
+ */
+ .StripeElement {
+
+
+  padding: 16px 16px;
+
+  border: 1px solid gray;
+
+  background-color: white;
+
+  
+}
+
+.StripeElement--focus {
+  box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+  border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}
+
+#card-errors{
+
+  color: #fa755a;
+}
+
+
+
+
+
+
+
+
