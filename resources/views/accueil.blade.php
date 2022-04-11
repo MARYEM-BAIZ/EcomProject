@@ -40,12 +40,12 @@
 
 
 
-     <!-- <img style="display:block ;margin-left:auto; margin-right:auto ; width:250px ; height:250px" src="{{asset('photos/mika-baumeister-Y_LgXwQEx2c-unsplash1604534550.jpg')}}" alt="image">
-     <img style="display:block ;margin-left:auto; margin-right:auto ; width:250px ; height:250px" src="{{asset('photos/mika-baumeister-Y_LgXwQEx2c-unsplash1604534550.jpg')}}" alt="image">
-     <img style="display:block ;margin-left:auto; margin-right:auto ; width:250px ; height:250px" src="{{asset('photos/mika-baumeister-Y_LgXwQEx2c-unsplash1604534550.jpg')}}" alt="image">
-     <img style="display:block ;margin-left:auto; margin-right:auto ; width:250px ; height:250px" src="{{asset('photos/mika-baumeister-Y_LgXwQEx2c-unsplash1604534550.jpg')}}" alt="image">
-     <img style="display:block ;margin-left:auto; margin-right:auto ; width:250px ; height:250px" src="{{asset('photos/mika-baumeister-Y_LgXwQEx2c-unsplash1604534550.jpg')}}" alt="image">
-     <img style="display:block ;margin-left:auto; margin-right:auto ; width:250px ; height:250px" src="{{asset('photos/mika-baumeister-Y_LgXwQEx2c-unsplash1604534550.jpg')}}" alt="image"> -->
+     {{-- <!-- <img style="display:block ;margin-left:auto; margin-right:auto ; width:250px ; height:250px" src="{{asset('photos/mika-baumeister-Y_LgXwQEx2c-unsplash1604534550.jpg')}}" alt="image"> --}}
+     {{-- <img style="display:block ;margin-left:auto; margin-right:auto ; width:250px ; height:250px" src="{{asset('photos/mika-baumeister-Y_LgXwQEx2c-unsplash1604534550.jpg')}}" alt="image"> --}}
+     {{-- <img style="display:block ;margin-left:auto; margin-right:auto ; width:250px ; height:250px" src="{{asset('photos/mika-baumeister-Y_LgXwQEx2c-unsplash1604534550.jpg')}}" alt="image"> --}}
+     {{-- <img style="display:block ;margin-left:auto; margin-right:auto ; width:250px ; height:250px" src="{{asset('photos/mika-baumeister-Y_LgXwQEx2c-unsplash1604534550.jpg')}}" alt="image"> --}}
+     {{-- <img style="display:block ;margin-left:auto; margin-right:auto ; width:250px ; height:250px" src="{{asset('photos/mika-baumeister-Y_LgXwQEx2c-unsplash1604534550.jpg')}}" alt="image"> --}}
+     {{-- <img style="display:block ;margin-left:auto; margin-right:auto ; width:250px ; height:250px" src="{{asset('photos/mika-baumeister-Y_LgXwQEx2c-unsplash1604534550.jpg')}}" alt="image"> --> --}}
 
      
     
