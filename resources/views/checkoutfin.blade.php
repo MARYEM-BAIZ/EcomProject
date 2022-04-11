@@ -219,7 +219,7 @@
     (function() {
           
           // Create a Stripe client.
-var stripe = Stripe('pk_test_TYooMQauvdEDq54NiTphI7jx');
+var stripe = Stripe('pk_test_51HrjwPIH8JNCB932LezyqLn447Vft5C2DlC1HpejAZpApWqqAGv0cY6ZJeGONsILvREGdleazPfAnEf97xdizYgu00i9TI14Vr');
 
 // Create an instance of Elements.
 var elements = stripe.elements();

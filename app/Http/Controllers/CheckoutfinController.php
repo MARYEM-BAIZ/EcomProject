@@ -10,6 +10,7 @@ use App\Models\Categorie;
 use App\Models\Souscategorie;
 use App\Models\Commande;
 use Illuminate\Support\Facades\Auth;
+use Session;
 
 class CheckoutfinController extends Controller
 {
@@ -44,21 +45,40 @@ class CheckoutfinController extends Controller
     public function store(Request $request)
     {
         try {
-            $charge= Stripe::charges()->create([
+        //  \Stripe::stripe()->setApiKey(env('STRIPE_SECRET'));
+        //     $charge= \Stripe::charges()->create([
 
-             'amount' => Cart::total()/100,
-             'currency' => 'MAD',
-             'source' =>  $request->stripeToken,
-             'description' => 'order',
-             'receipt_email' => $request->email,
-             'metadata' => [
+        //      'amount' => Cart::getTotal()/100,
+        //      'currency' => 'MAD',
+        //      'source' =>  $request->stripeToken,
+        //      'description' => 'order',
+        //      'receipt_email' => $request->email,
+        //      'metadata' => [
 
-             ],
+        //      ],
 
 
-            ]);
+        //     ]);
 
-           return back()->with('success_message','thank you');
+        //    return back()->with('success_message','thank you');
+
+
+        \Stripe\Stripe::setApiKey(env('STRIPE_SECRET'));
+        \Stripe\Charge::create ([
+                "amount" => 100 * Cart::getTotal(),
+                "currency" => 'MAD',
+                "source" => $request->stripeToken,
+                "description" => "Making test payment." ,
+                'receipt_email' => $request->email,
+                'metadata' => [
+
+                ]
+            
+        ]);
+
+        Session::flash('success', 'Payment has been successfully processed.');
+
+        return back();
 
         } catch (Exception $e) {
             //throw $th;
