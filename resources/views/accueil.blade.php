@@ -9,7 +9,7 @@
   <div class="carousel-inner">
     <div class="carousel-item active slider">
         
-      <!-- <img style=" width: 100%; height: 500px" src="{{asset('photos/hello-i-m-nik-z1d-LP8sjuI-unsplash1604417482.jpg')}}" class="d-block w-100" alt="..."> -->
+     <img style=" width: 100%; height: 500px" src="{{asset('photos/hello-i-m-nik-z1d-LP8sjuI-unsplash1604417482.jpg')}}" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
       <img style=" width: 100%; height: 500px" src="{{asset('photos/highlight-id-roHpoNuME1w-unsplash1604406032.jpg')}}" class="d-block w-100" alt="...">
