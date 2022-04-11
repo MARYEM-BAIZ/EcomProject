@@ -3,7 +3,6 @@
 
 
 <p class="titre">ajout produit</p>
-<p>Ajouter produit</p>
     <section  class="" >
     <form action="{{ route('produit.ajouter') }}"  class="text-center border border-light p-5" enctype="multipart/form-data" method="post">
     @csrf
